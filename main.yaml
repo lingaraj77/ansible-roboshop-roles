@@ -3,3 +3,26 @@
   become: yes
   roles:
   - "{{component}}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
