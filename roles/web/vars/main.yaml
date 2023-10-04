@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.joindevops.online
-USER_HOST: user.joindevops.online
-SHIPPING_HOST: shipping.joindevops.online
-CART_HOST: cart.joindevops.online
-PAYMENT_HOST: payment.joindevops.online
+CATALOGUE_HOST: catalogue.joindevops.blog
+USER_HOST: user.joindevops.blog
+SHIPPING_HOST: shipping.joindevops.blog
+CART_HOST: cart.joindevops.blog
+PAYMENT_HOST: payment.joindevops.blog

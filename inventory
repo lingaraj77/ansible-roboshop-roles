@@ -1,29 +1,29 @@
 [mongodb]
-mongodb.joindevops.online
+mongodb.joindevops.blog
 
 [catalogue]
-catalogue.joindevops.online
+catalogue.joindevops.blog
 
 [web]
-web.joindevops.online
+web.joindevops.blog
 
 [redis]
-redis.joindevops.online
+redis.joindevops.blog
 
 [user]
-user.joindevops.online
+user.joindevops.blog
 
 [cart]
-cart.joindevops.online
+cart.joindevops.blog
 
 [mysql]
-mysql.joindevops.online
+mysql.joindevops.blog
 
 [shipping]
-shipping.joindevops.online
+shipping.joindevops.blog
 
 [rabbitmq]
-rabbitmq.joindevops.online
+rabbitmq.joindevops.blog
 
 [payment]
-payment.joindevops.online
+payment.joindevops.blog
