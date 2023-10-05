@@ -10,7 +10,7 @@
 
 - name: load {{component}} data
   ansible.builtin.command: mongo --host mongodb.joindevops.blog < /app/schema/{{component}}.js
-  state: restarted
+  
 
 
 
