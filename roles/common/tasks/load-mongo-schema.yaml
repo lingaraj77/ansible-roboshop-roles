@@ -9,8 +9,8 @@
     state: installed
 
 - name: load {{component}} data
-  ansible.builtin.command: mongo --host mongodb.joindevops.blog < /app/schema/{{component}}.js
-  
+  ansible.builtin.command: mongo --host mongodb.joindevops.blog </app/schema/{{component}}.js
+  ignore_errors: yes
 
 
 
