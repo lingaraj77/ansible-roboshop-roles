@@ -10,16 +10,7 @@
 
 - name: load {{component}} data
   ansible.builtin.command: mongo --host mongodb.joindevops.blog < /app/schema/{{component}}.js
-
-- name: Insert data into MongoDB
-  ansible.builtin.command: mongo --host mongodb.joindevops.blog < /app/schema/catalogue.js
-  ignore_errors: yes
-  register: mongo_result
-
-- name: Handle MongoDB error
-  ansible.builtin.debug:
-    msg: "MongoDB operation failed with return code {{ mongo_result.rc }}"
-  when: mongo_result.rc != 0
+  state: restarted
 
 
 
